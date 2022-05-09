@@ -11,3 +11,4 @@ checkmarx:
       sast:
         # configure the SAST preset name used for this specific project
         presetName: 'High and Medium'
+        filter: '!test'
